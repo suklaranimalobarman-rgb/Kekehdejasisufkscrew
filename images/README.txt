@@ -1,0 +1,1 @@
+Store your saree images in the "images" folder as sharee1.jpg, sharee2.jpg, sharee3.jpg, sharee4.jpg for the gallery to appear.

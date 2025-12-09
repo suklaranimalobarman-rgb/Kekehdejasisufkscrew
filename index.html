@@ -1,2 +1,61 @@
-Current Date and Time (UTC - YYYY-MM-DD HH:MM:SS formatted): 2025-12-09 12:29:02
-Current User's Login: suklaranimalobarman-rgb
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sharee Shop - Suklarani Malobarman</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sharee Shop</h1>
+    <nav>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Welcome to Suklarani Malobarman's Sharee Business</h2>
+    <p>Elegant, traditional, handpicked sarees for every occasion. Explore our collection and add a touch of grace to your wardrobe!</p>
+  </section>
+  <section id="gallery" class="gallery">
+    <h2>Our Collection</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/sharee1.jpg" alt="Sharee 1">
+        <p>Banarasi Silk</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/sharee2.jpg" alt="Sharee 2">
+        <p>Katan Silk</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/sharee3.jpg" alt="Sharee 3">
+        <p>Tant Cotton</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/sharee4.jpg" alt="Sharee 4">
+        <p>Dhakai Jamdani</p>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="mailto:suklarani@example.com" method="POST" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <div class="whatsapp">
+      <p>Or WhatsApp us at: <a href="https://wa.me/919XXXXXXXXX">+91-9XXXXXXXXX</a></p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Suklarani Malobarman. All rights reserved.</p>
+  </footer>
+</body>
+</html>
