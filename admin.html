@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  ...[see above: admin.html code]...
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>E-commerce Admin Panel</title>
+  <style>
+    /* [Insert full CSS from previous admin.html answer here] */
+  </style>
 </head>
 <body>
-  ...[see above: admin panel body code]...
+  <div id="modal" class="modal hide"><div class="modal-dialog" id="modalDialog"></div></div>
+  <div class="container">
+    <div class="sidebar" id="sidebar">
+      <div class="logo">Admin Panel</div>
+      <nav>
+        <button class="nav-link active" id="navDashboard">📊 Dashboard</button>
+        <button class="nav-link" id="navOrders">📦 Orders <span class="tag placed hide" id="pendingOrderBadge"></span></button>
+        <button class="nav-link" id="navProducts">🛍️ Products</button>
+        <button class="nav-link" id="navBanners">🏷️ Banners</button>
+        <button class="nav-link" id="navCategories">📂 Categories</button>
+        <button class="nav-link" id="navUsers">👤 Users</button>
+      </nav>
+      <button class="logout-btn" id="logoutBtn">Logout</button>
+    </div>
+    <div class="main" id="mainView">
+      <div class="header" id="pageTitle">Dashboard</div>
+      <div class="main-content" id="mainContent"></div>
+    </div>
+  </div>
+  <script type="module">
+    // [Insert full JS from previous admin.html answers here, including Firebase config placeholder]
+  </script>
 </body>
 </html>

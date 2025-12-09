@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  ...[see above: index.html code]...
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>E-commerce App - Customer Panel</title>
+  <style>
+    /* [Insert full CSS from previous index.html answer here] */
+  </style>
 </head>
 <body>
-  ...[see above: body code]...
+  <header>
+    <h2>E-commerce Store</h2>
+    <div id="headerProfile" class="hide"></div>
+  </header>
+  <main id="appMain"></main>
+  <nav class="bottom-nav" id="mainNav">
+    <button id="navHome" class="active"><span class="bottom-nav-icon">🏠</span>Home</button>
+    <button id="navWishlist"><span class="bottom-nav-icon">❤️</span>Wishlist</button>
+    <button id="navCart"><span class="bottom-nav-icon">🛒</span>Cart</button>
+    <button id="navProfile"><span class="bottom-nav-icon">👤</span>Profile</button>
+  </nav>
+  <div id="modal" class="modal hide">
+    <div class="modal-dialog" id="modalDialog"></div>
+  </div>
+  <script type="module">
+    // [Insert full JS from previous index.html answers here, including Firebase config placeholder]
+  </script>
 </body>
 </html>
